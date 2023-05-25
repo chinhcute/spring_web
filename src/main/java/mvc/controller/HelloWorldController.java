@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HelloWorldController {
     @RequestMapping("/")
     public String greeting1 (){
-
         return "helloWorld/greeting";
     }
     @RequestMapping("/hello")
